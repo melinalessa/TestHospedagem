@@ -1,0 +1,11 @@
+DOMINIO
+resgistro do nome
+
+HOSPEDAGEM
+Servico de armazenagem na internet
+
+SITE
+estrutura
+
+hospedagem gratuita - github/ versel (html css script)
+

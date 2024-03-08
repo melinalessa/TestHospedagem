@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --fonte:'Lato', sans-serif;
+    --corBg: #FFFFFF;
+    --corBotoes: rgb(138, 43, 320);
+    --corHover: rbg(180, 18, 85);
+
+
+}
+
+body{
+    background-image:url('black-texture.png');
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+div{
+    background-color: var(--corBg);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+
+    }
+
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 20px;
+     }
+     
+    h1{
+        font-size: 3rem;
+        color: blueviolet;
+           
+     }
+     
+    p{
+        margin: 10px 0px 20px 0px ;
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin: 10px ;
+        font-family: var(--Fonte);
+     }
+     
+    a{
+        background: rgb(138, 43, 226);
+        color: #ffffffff;
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 10px;
+        border-radius: 40px;
+        width: 90%;
+        padding: 20px;
+        transform-style: preserve-3d;
+     }
+     
+    a:hover{
+        background: rgb(180, 18, 185);
+     
+     }
+     
